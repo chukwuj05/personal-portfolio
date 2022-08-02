@@ -1,0 +1,92 @@
+header{
+    background-color: rgb(209, 201, 216);
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    width: 100%;
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    
+}
+li {
+    list-style-type: none;
+}
+a{
+    font-size: 1rem;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(199, 184, 235);
+    color: rgb(37, 4, 68);
+    padding: 0.5rem;
+    box-shadow: 4px 3px  3px 4px rgb(20, 4, 20);
+}
+nav a:hover{
+    color: rgb(90, 233, 233);
+    background-color: rgb(235, 133, 10);
+
+}
+div h2{
+    text-align: center;
+    color: rgb(200, 149, 247);
+    text-decoration: underline;
+}
+.container h3{
+    text-align: center;
+    background-color:rgb(20, 223, 223) ;
+}
+h3{
+    margin: 10px;
+    line-height: 2rem;
+}
+/* body{
+    background-color: rgb(10, 94, 94); */
+    
+div h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(200, 149, 247);
+}
+div ul{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+div p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+form{
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+}
+ .move{
+    text-align: center;
+    background-color: rgb(1, 20, 20);
+}
+.change{
+    background-color: rgb(10, 94, 94);
+}
+.achievements{
+    background-color: rgb(20, 223, 223);
+}
+.projects{
+    background-color: rgb(10, 94, 94);
+}
+button{
+    color: rgb(20, 223, 223);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(1, 20, 20);
+}
+button:hover{
+    color: rgb(200, 149, 247);
+    background-color: black;
+}
